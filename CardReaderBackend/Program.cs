@@ -21,7 +21,6 @@ namespace CardReaderBackend
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder
-                    .UseUrls("http://192.168.3.8:5000")
                     .UseStartup<Startup>();
                 });
     }
